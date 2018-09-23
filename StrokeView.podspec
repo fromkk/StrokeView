@@ -92,6 +92,8 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "StrokeView", "StrokeView/*.swift"
+  s.swift_version = "4.2"
+
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
