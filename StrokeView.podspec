@@ -25,7 +25,26 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  `StrokeView` is handlable round trip gesture on extended  `UIView`.
+`StrokeView` is handlable round trip gesture on extended  `UIView`.
+
+# Usage
+
+```swift
+class ViewController: UIViewController, StrokeViewDelegate {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        let strokeView: StrokeView = StrokeView()
+        strokeView.delegate = self
+        view.addSubview(strokeView)
+    }
+
+    func strokeViewDidStroke(_ strokeView: StrokeView) {
+        print("did stroke!!!")
+    }
+}
+```
                    DESC
 
   s.homepage     = "https://github.com/fromkk/StrokeView"
