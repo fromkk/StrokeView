@@ -14,6 +14,13 @@
 		ADF22CE2215744740034AAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF22CE0215744740034AAE1 /* LaunchScreen.storyboard */; };
 		ADF22CED215744740034AAE1 /* StrokeViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF22CEC215744740034AAE1 /* StrokeViewSampleTests.swift */; };
 		ADF22CF8215744740034AAE1 /* StrokeViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF22CF7215744740034AAE1 /* StrokeViewSampleUITests.swift */; };
+		ADF22D13215744860034AAE1 /* StrokeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF22D0A215744850034AAE1 /* StrokeView.framework */; };
+		ADF22D1A215744860034AAE1 /* StrokeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF22D19215744860034AAE1 /* StrokeViewTests.swift */; };
+		ADF22D1C215744860034AAE1 /* StrokeView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF22D0C215744860034AAE1 /* StrokeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF22D1F215744860034AAE1 /* StrokeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF22D0A215744850034AAE1 /* StrokeView.framework */; };
+		ADF22D20215744860034AAE1 /* StrokeView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADF22D0A215744850034AAE1 /* StrokeView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADF22D29215744950034AAE1 /* StrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF22D28215744950034AAE1 /* StrokeView.swift */; };
+		ADF22D2B215744B00034AAE1 /* StrokeViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF22D2A215744B00034AAE1 /* StrokeViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,42 @@
 			remoteGlobalIDString = ADF22CD3215744740034AAE1;
 			remoteInfo = StrokeViewSample;
 		};
+		ADF22D14215744860034AAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF22CCC215744740034AAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF22D09215744850034AAE1;
+			remoteInfo = StrokeView;
+		};
+		ADF22D16215744860034AAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF22CCC215744740034AAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF22CD3215744740034AAE1;
+			remoteInfo = StrokeViewSample;
+		};
+		ADF22D1D215744860034AAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF22CCC215744740034AAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF22D09215744850034AAE1;
+			remoteInfo = StrokeView;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADF22D24215744860034AAE1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ADF22D20215744860034AAE1 /* StrokeView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		ADF22CD4215744740034AAE1 /* StrokeViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrokeViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +89,17 @@
 		ADF22CF3215744740034AAE1 /* StrokeViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF22CF7215744740034AAE1 /* StrokeViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeViewSampleUITests.swift; sourceTree = "<group>"; };
 		ADF22CF9215744740034AAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF22D0A215744850034AAE1 /* StrokeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrokeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF22D0C215744860034AAE1 /* StrokeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeView.h; sourceTree = "<group>"; };
+		ADF22D0D215744860034AAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF22D12215744860034AAE1 /* StrokeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF22D19215744860034AAE1 /* StrokeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeViewTests.swift; sourceTree = "<group>"; };
+		ADF22D1B215744860034AAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF22D28215744950034AAE1 /* StrokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeView.swift; sourceTree = "<group>"; };
+		ADF22D2A215744B00034AAE1 /* StrokeViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeViewDelegate.swift; sourceTree = "<group>"; };
+		ADF22D2C215791CE0034AAE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ADF22D2E21579E610034AAE1 /* StrokeView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrokeView.png; sourceTree = "<group>"; };
+		ADF22D3021579EA90034AAE1 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF22D1F215744860034AAE1 /* StrokeView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,15 +125,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADF22D07215744850034AAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF22D0F215744860034AAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF22D13215744860034AAE1 /* StrokeView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		ADF22CCB215744740034AAE1 = {
 			isa = PBXGroup;
 			children = (
+				ADF22D2D21579DAD0034AAE1 /* Icons */,
+				ADF22D2C215791CE0034AAE1 /* README.md */,
+				ADF22D3021579EA90034AAE1 /* LICENSE.md */,
 				ADF22CD6215744740034AAE1 /* StrokeViewSample */,
 				ADF22CEB215744740034AAE1 /* StrokeViewSampleTests */,
 				ADF22CF6215744740034AAE1 /* StrokeViewSampleUITests */,
+				ADF22D0B215744860034AAE1 /* StrokeView */,
+				ADF22D18215744860034AAE1 /* StrokeViewTests */,
 				ADF22CD5215744740034AAE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +164,8 @@
 				ADF22CD4215744740034AAE1 /* StrokeViewSample.app */,
 				ADF22CE8215744740034AAE1 /* StrokeViewSampleTests.xctest */,
 				ADF22CF3215744740034AAE1 /* StrokeViewSampleUITests.xctest */,
+				ADF22D0A215744850034AAE1 /* StrokeView.framework */,
+				ADF22D12215744860034AAE1 /* StrokeViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +201,46 @@
 			path = StrokeViewSampleUITests;
 			sourceTree = "<group>";
 		};
+		ADF22D0B215744860034AAE1 /* StrokeView */ = {
+			isa = PBXGroup;
+			children = (
+				ADF22D0C215744860034AAE1 /* StrokeView.h */,
+				ADF22D0D215744860034AAE1 /* Info.plist */,
+				ADF22D28215744950034AAE1 /* StrokeView.swift */,
+				ADF22D2A215744B00034AAE1 /* StrokeViewDelegate.swift */,
+			);
+			path = StrokeView;
+			sourceTree = "<group>";
+		};
+		ADF22D18215744860034AAE1 /* StrokeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF22D19215744860034AAE1 /* StrokeViewTests.swift */,
+				ADF22D1B215744860034AAE1 /* Info.plist */,
+			);
+			path = StrokeViewTests;
+			sourceTree = "<group>";
+		};
+		ADF22D2D21579DAD0034AAE1 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				ADF22D2E21579E610034AAE1 /* StrokeView.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADF22D05215744850034AAE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF22D1C215744860034AAE1 /* StrokeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		ADF22CD3215744740034AAE1 /* StrokeViewSample */ = {
@@ -135,10 +250,12 @@
 				ADF22CD0215744740034AAE1 /* Sources */,
 				ADF22CD1215744740034AAE1 /* Frameworks */,
 				ADF22CD2215744740034AAE1 /* Resources */,
+				ADF22D24215744860034AAE1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ADF22D1E215744860034AAE1 /* PBXTargetDependency */,
 			);
 			name = StrokeViewSample;
 			productName = StrokeViewSample;
@@ -181,6 +298,43 @@
 			productReference = ADF22CF3215744740034AAE1 /* StrokeViewSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		ADF22D09215744850034AAE1 /* StrokeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF22D21215744860034AAE1 /* Build configuration list for PBXNativeTarget "StrokeView" */;
+			buildPhases = (
+				ADF22D05215744850034AAE1 /* Headers */,
+				ADF22D06215744850034AAE1 /* Sources */,
+				ADF22D07215744850034AAE1 /* Frameworks */,
+				ADF22D08215744850034AAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrokeView;
+			productName = StrokeView;
+			productReference = ADF22D0A215744850034AAE1 /* StrokeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADF22D11215744860034AAE1 /* StrokeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF22D25215744860034AAE1 /* Build configuration list for PBXNativeTarget "StrokeViewTests" */;
+			buildPhases = (
+				ADF22D0E215744860034AAE1 /* Sources */,
+				ADF22D0F215744860034AAE1 /* Frameworks */,
+				ADF22D10215744860034AAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF22D15215744860034AAE1 /* PBXTargetDependency */,
+				ADF22D17215744860034AAE1 /* PBXTargetDependency */,
+			);
+			name = StrokeViewTests;
+			productName = StrokeViewTests;
+			productReference = ADF22D12215744860034AAE1 /* StrokeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +356,14 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = ADF22CD3215744740034AAE1;
 					};
+					ADF22D09215744850034AAE1 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					ADF22D11215744860034AAE1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ADF22CD3215744740034AAE1;
+					};
 				};
 			};
 			buildConfigurationList = ADF22CCF215744740034AAE1 /* Build configuration list for PBXProject "StrokeViewSample" */;
@@ -220,6 +382,8 @@
 				ADF22CD3215744740034AAE1 /* StrokeViewSample */,
 				ADF22CE7215744740034AAE1 /* StrokeViewSampleTests */,
 				ADF22CF2215744740034AAE1 /* StrokeViewSampleUITests */,
+				ADF22D09215744850034AAE1 /* StrokeView */,
+				ADF22D11215744860034AAE1 /* StrokeViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +407,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ADF22CF1215744740034AAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF22D08215744850034AAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF22D10215744860034AAE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +455,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADF22D06215744850034AAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF22D29215744950034AAE1 /* StrokeView.swift in Sources */,
+				ADF22D2B215744B00034AAE1 /* StrokeViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF22D0E215744860034AAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF22D1A215744860034AAE1 /* StrokeViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +484,21 @@
 			isa = PBXTargetDependency;
 			target = ADF22CD3215744740034AAE1 /* StrokeViewSample */;
 			targetProxy = ADF22CF4215744740034AAE1 /* PBXContainerItemProxy */;
+		};
+		ADF22D15215744860034AAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF22D09215744850034AAE1 /* StrokeView */;
+			targetProxy = ADF22D14215744860034AAE1 /* PBXContainerItemProxy */;
+		};
+		ADF22D17215744860034AAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF22CD3215744740034AAE1 /* StrokeViewSample */;
+			targetProxy = ADF22D16215744860034AAE1 /* PBXContainerItemProxy */;
+		};
+		ADF22D1E215744860034AAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF22D09215744850034AAE1 /* StrokeView */;
+			targetProxy = ADF22D1D215744860034AAE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -431,6 +641,7 @@
 		ADF22CFD215744740034AAE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K84E4S7G4C;
@@ -449,6 +660,7 @@
 		ADF22CFE215744740034AAE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K84E4S7G4C;
@@ -546,6 +758,107 @@
 			};
 			name = Release;
 		};
+		ADF22D22215744860034AAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = StrokeView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.StrokeView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADF22D23215744860034AAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = StrokeView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.StrokeView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADF22D26215744860034AAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = StrokeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.StrokeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrokeViewSample.app/StrokeViewSample";
+			};
+			name = Debug;
+		};
+		ADF22D27215744860034AAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = StrokeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.StrokeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrokeViewSample.app/StrokeViewSample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +894,24 @@
 			buildConfigurations = (
 				ADF22D03215744740034AAE1 /* Debug */,
 				ADF22D04215744740034AAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF22D21215744860034AAE1 /* Build configuration list for PBXNativeTarget "StrokeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF22D22215744860034AAE1 /* Debug */,
+				ADF22D23215744860034AAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF22D25215744860034AAE1 /* Build configuration list for PBXNativeTarget "StrokeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF22D26215744860034AAE1 /* Debug */,
+				ADF22D27215744860034AAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
